@@ -1,0 +1,12 @@
+# Prettier already ignores .gitignore files
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+/build
+/dist
+/.svelte-kit
+/package
+

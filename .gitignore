@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+.DS_Store
+
+node_modules
+
+.env.*
+!.env.example
+
+# uncomment the line below on your actual project
+# .vscode/*
+!.vscode/extensions.json
+
+src/foo.js
+src/foo.test.js
+
+coverage
